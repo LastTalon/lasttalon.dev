@@ -1,0 +1,72 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #888;
+	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	padding: 0 0 2em 0;
+	text-align: center;
+}
+
+.presentation {
+	display: inline-block;
+	width: 1000px;
+	text-align: left;
+}
+
+.presentation header,
+.presentation article {
+	margin: 1em 0;
+	padding: 1em 4em;
+	background-color: white;
+	box-shadow: 0 4px 8px #000;
+}
+
+.presentation h2 {
+	margin: 0 0 .5em 0;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Merriweather', serif;
+}
+
+.presentation h3,
+.presentation h4,
+.presentation h5,
+.presentation h6 {
+	margin: .5em 0;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+}
+
+.presentation h3 {
+	font-size: 2em;
+}
+
+.presentation h4 {
+	font-size: 1.5em;
+}
+
+.presentation h5 {
+	font-size: 1.2em;
+}
+
+.presentation h6 {
+	font-size: 1.1em;
+}
+
+.presentation p {
+	margin: 0 0 1em 0;
+}
+
+.presentation nav .bar {
+	color: white;
+	background-color: #222;
+	font-family: 'Roboto', sans-serif;
+}
+
+.presentation nav .bar li:hover {
+	background-color: #fff2;
+}

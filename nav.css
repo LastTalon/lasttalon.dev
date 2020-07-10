@@ -1,0 +1,84 @@
+nav .menu {
+	display: block;
+	float: right;
+	width: 6em;
+	height: 100%;
+}
+
+nav .menu:hover ul {
+	display: block;
+}
+
+nav .menu label {
+	display: inline-block;
+	position: absolute;
+	width: 6em;
+	bottom: .3em;
+	text-align: center;
+}
+
+nav .menu ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	list-style-type: none;
+	text-transform: none;
+}
+
+nav .menu li {
+	display: block;
+}
+
+nav .menu li a {
+	display: block;
+	padding: .4em;
+	color: inherit;
+	text-decoration: inherit;
+}
+
+nav .menu li label {
+	display: block;
+	position: unset;
+	width: unset;
+	padding: 0 0 .2em 0;
+	margin: 0;
+	text-align: unset;
+	cursor: pointer;
+}
+
+nav .menu li p {
+	padding: 0 0 0 .5em;
+	margin: 0;
+	font-size: .75em;
+}
+
+nav .bar {
+	display: block;
+	padding: 0 .5em;
+	margin: .5em 0;
+}
+
+nav .bar ul {
+	display: block;
+	width: 100%;
+	margin: .5em 0;
+	padding: 0;
+	list-style-type: none;
+	text-transform: none;
+}
+
+nav .bar li {
+	display: inline-block;
+	padding: .5em;
+	margin: 0 .5em;
+}
+
+nav .bar li a {
+	color: inherit;
+	text-decoration: inherit;
+}

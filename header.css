@@ -1,0 +1,66 @@
+.main-header {
+	display: block;
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 3em;
+	color: white;
+	background-color: #222;
+	font-size: 1em;
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	box-shadow: 0 4px 8px #000;
+}
+
+.main-header img {
+	display: inline-block;
+	height: 100%;
+}
+
+.main-header h1 {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 .25em;
+	font-size: 2.5em;
+	vertical-align: top;
+	line-height: 1;
+}
+
+.main-header nav {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	height: 100%;
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-header nav .menu {
+	border-style: solid;
+	border-width: 0 0 0 1px;
+	border-color: #333;
+}
+
+.main-header nav .menu ul {
+	background-color: #222;
+	box-shadow: 0 4px 8px #000;
+}
+
+.main-header nav .menu li a {
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	border-color: #333;
+}
+
+.main-header nav .menu:hover {
+	background-color: #fff2;
+}
+
+.main-header nav .menu li:hover {
+	background-color: #fff2;
+}
+
+.main-header nav .menu li label {
+	font-family: 'Merriweather', sans-serif;
+}

@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    tags: ["*"]
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd ${{ secrets.PROJECT_PATH }}
+            git pull
+            git checkout ${{ github.ref }}
+            npm install
+            npm run build

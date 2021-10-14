@@ -1,0 +1,39 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-height: 256px;
+  background-color: #333;
+  color: #ddd;
+  padding: 3em;
+}
+
+.FooterBox {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 100%;
+}
+
+.FooterBox > ul {
+  list-style-type: none;
+  text-transform: none;
+  padding: 0 2em;
+}
+
+.FooterBox > ul > li {
+  margin-bottom: 0.5em;
+}
+
+.FooterBox > label {
+  font-size: 1.2em;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+}
+
+.FooterBox a {
+  color: inherit;
+  text-decoration: underline;
+}

@@ -1,0 +1,106 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #ddd;
+  background-color: #333;
+  height: 64px;
+  font-size: 16px;
+  /* box-shadow: 0 4px 16px #000; */
+}
+
+.Header a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.Title {
+  display: block;
+}
+
+.Title img {
+  height: 64px;
+}
+
+.Title h1 {
+  display: inline;
+  font-size: 4em;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.NavMenu {
+  display: block;
+  width: 128px;
+  height: 100%;
+  border-left: 1px solid #444;
+  font-family: Merriweather, serif;
+}
+
+.NavMenu > label {
+  display: flex;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 1.5em;
+  padding-bottom: 0.4em;
+}
+
+.NavMenu > ul {
+  display: none;
+  position: absolute;
+  width: 400px;
+  right: 0;
+  list-style-type: none;
+  text-transform: none;
+  background-color: #222;
+  box-shadow: 0 4px 8px #000;
+}
+
+.NavMenu:hover ul {
+  display: block;
+}
+
+.NavMenu:hover > label {
+  background-color: #222;
+}
+
+.NavMenu li {
+  display: block;
+  border-top: 1px solid #444;
+  cursor: pointer;
+}
+
+.NavMenu li:hover {
+  background-color: #333;
+}
+
+.NavMenu li a {
+  display: block;
+  padding: 0.5em;
+  cursor: inherit;
+}
+
+.NavMenu li label {
+  display: block;
+  box-sizing: content-box;
+  cursor: inherit;
+  padding-bottom: 0.4em;
+  /* font-size: 1.5em; */
+}
+
+.NavMenu li p {
+  padding: 0 0.5em;
+  margin: 0;
+  cursor: inherit;
+  font-size: 0.9em;
+}

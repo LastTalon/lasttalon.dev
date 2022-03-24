@@ -28,7 +28,7 @@ getting involved.
 This website is free software available under the MIT license. See the [license]
 for details.
 
-[license]: LICENCE.md
+[license]: LICENSE.md
 [conduct]: CODE_OF_CONDUCT.md
 [contributing]: CONTRIBUTING.md
 [website]: https://lasttalon.dev/

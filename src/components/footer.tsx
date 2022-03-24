@@ -40,7 +40,7 @@ const FooterBox = ({
 const Footer = () => (
   <footer className={styles.Footer}>
     <FooterBox>
-      <FooterBoxItem>© 2021 Lucas Gangstad</FooterBoxItem>
+      <FooterBoxItem>© 2021-2022 Lucas Gangstad</FooterBoxItem>
       <FooterBoxItem>
         Built with{" "}
         <a href="https://www.gatsbyjs.com/">

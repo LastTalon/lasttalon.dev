@@ -20,6 +20,9 @@
 
 .Title img {
   height: 64px;
+  max-height: inherit;
+  vertical-align: inherit;
+  padding: inherit;
 }
 
 .Title h1 {

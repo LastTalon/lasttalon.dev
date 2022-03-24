@@ -4,10 +4,19 @@ import Footer from "./footer";
 
 import "./layout.css";
 
-export const Page = ({ children }: { children: ReactNode }) => (
+export const Page = ({
+  title,
+  children,
+}: {
+  title?: string;
+  children: ReactNode;
+}) => (
   <>
     <Header />
-    <main>{children}</main>
+    <main>
+      <title>{title ? title + " — " : null}LastTalon</title>
+      {children}
+    </main>
     <Footer />
   </>
 );

@@ -1,3 +1,23 @@
 .Accent {
   color: #9370db;
 }
+
+.Paragraph {
+  line-height: 1.5;
+  margin: 0.8em 0;
+}
+
+.FloatingImage {
+  width: 50%;
+  max-width: 400px;
+  object-fit: scale-down;
+  margin: 0 0.4em;
+}
+
+.FloatingImage.FloatingImageRight {
+  float: right;
+}
+
+.FloatingImage.FloatingImageLeft {
+  float: left;
+}

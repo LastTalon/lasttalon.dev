@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #ddd;
+  background-color: #9c8bc0;
   font-size: 16px;
   height: 100%;
 }
@@ -23,8 +23,8 @@ body {
 }
 
 main {
-  color: #232129;
-  padding: 96px;
+  color: #333;
+  padding: 1em 96px;
   flex: 1 0;
 }
 
@@ -35,40 +35,52 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
+}
+
+h1 p {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.75em;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 p {
-  margin-bottom: 1em;
+  margin: 0.5em 0;
 }
 
 a {
   text-decoration: underline;
-  color: #0070f3;
+  color: #9370db;
+}
+
+a img {
+  max-height: 1em;
+  vertical-align: sub;
+  padding: 0 0.2em;
 }
 
 #___gatsby {

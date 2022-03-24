@@ -1,0 +1,22 @@
+.Box {
+  background-color: #eee;
+  padding: 1em;
+  box-shadow: 2px 4px 8px #000;
+}
+
+.Box > div {
+  margin: 0 0.5em;
+}
+
+.BoxFeature {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.BoxLayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  column-gap: 8px;
+  row-gap: 8px;
+}

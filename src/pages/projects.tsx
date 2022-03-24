@@ -1,16 +1,14 @@
 import React from "react";
 import { Page } from "../components/layout";
-import { Accent } from "../components/typography";
+import { BoxFeature, BoxLayout } from "../components/boxLayout";
 
 const ProjectPage = () => (
-  <Page>
-    <title>LastTalon</title>
-    <h1>
-      Project
-      <br />
-      <Accent>— coming soon!</Accent>
-    </h1>
-    <p>This page is currently under construction.</p>
+  <Page title="Projects">
+    <BoxLayout>
+      <BoxFeature title="Projects" subtitle="coming soon!">
+        <p>This page is currently under construction.</p>
+      </BoxFeature>
+    </BoxLayout>
   </Page>
 );
 
